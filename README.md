@@ -1,4 +1,4 @@
-```markdown
+
 # Kubernetes Workload Isolation Lab: Distroless vs. Kata Containers (MicroVMs)
 
 A practical, reproducible Kubernetes lab demonstrating the architectural security boundary between **Distroless containers** (userland minimization on a shared host kernel) and **Kata Containers** (hardware-virtualized microVMs with a dedicated guest kernel via Cloud Hypervisor).
@@ -380,7 +380,5 @@ kubectl delete pod app-distroless-runc app-distroless-kata priv-test-runc priv-t
 
 ```
 
-```
 
-```
 
